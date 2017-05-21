@@ -1,8 +1,9 @@
 .footer {
     background-color: #eceff1;
     z-index: 900;
-    padding: 25px 75px;
-    margin-top: 50px;
+    padding: 0px 75px;
+    /*height: 50px;*/
+    /*margin-top: 50px;*/
 
     /*width: 100%;*/
     /*position: fixed;*/

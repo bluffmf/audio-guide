@@ -1,44 +1,10 @@
-.main {
-    min-width: 700px;
+
+.player {
+    margin: 10px 0;
 }
 
-.cont {
-    margin-top: 70px;
-}
-
-.padded {
-    margin: 50px 0;
-}
-
-.padded section .md-subheader {
-    margin: 10px;
-}
-.padded section md-content {
-    background-color: #fff;
-    margin: 10px 30px 30px 30px;
-}
-
-
-.padded section img {
-    margin: 30px;
-    width: 130px;
-    height: 80px;
-}
-
-
-
-
-
-.table {
-    text-align: center;
-}
-.table th {
-    font-size: 12px;
-    text-align: center;
-}
-
-.table>tbody>tr:nth-child(odd)>td {
-    background-color: rgb(244, 247, 247);
+.autumn img {
+    max-width: 100%;
 }
 
 

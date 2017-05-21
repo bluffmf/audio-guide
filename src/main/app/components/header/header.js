@@ -8,6 +8,8 @@ KumApp.controller('HeaderCtrl', function($scope, $mdSidenav, headerService) {
 
     // test
 
+    // sec test
+
 
 
     vm.toAdmin = function() {

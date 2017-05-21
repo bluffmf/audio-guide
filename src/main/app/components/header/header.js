@@ -5,7 +5,9 @@ KumApp.controller('HeaderCtrl', function($scope, $mdSidenav, headerService) {
     vm.head = {
         title: "title head"
     };
-    
+
+    // test
+
 
 
     vm.toAdmin = function() {

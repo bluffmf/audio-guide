@@ -1,0 +1,11 @@
+<footer ng-controller="FooterCtrl as vm" class="footer" layout="row" layout-align="space-between center">
+    
+
+    <md-list>
+        <md-item ng-repeat="item in vm.footer.items">
+            <md-button ng-click="vm.toContact(item)">                
+                {{item.name}}
+            </md-button>
+        </md-item>
+    </md-list>
+</footer>

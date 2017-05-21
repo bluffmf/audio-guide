@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Guide</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="node_modules/angular-ui-notification/dist/angular-ui-notification.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="app_main/components/admin/admin.css">
+    <link rel="stylesheet" href="app_main/components/header/header.css">
+    <link rel="stylesheet" href="app_main/components/container/container.css">
+    <link rel="stylesheet" href="app_main/components/footer/footer.css">
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
+</head>
+<body ng-app="AudioGuideApp">
+
+    <div ng-include="'app_main/components/header/header.html'"></div>
+
+    <div class="main">
+        <div layout="row" layout-align="center" ng-include="'app_main/components/container/container.html'"></div>
+
+        <div ng-include="'app_main/components/footer/footer.html'"></div>
+    </div>
+
+    <div ng-include="'app_main/components/admin/admin.html'"></div>
+
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+    <script src="node_modules/angular-material/angular-material.min.js"></script>
+    <script src="node_modules/angular-ui-notification/dist/angular-ui-notification.js"></script>
+
+    <script src="app_main/app.js"></script>
+    <script src="app_main/services/services.js"></script>
+    <script src="app_main/components/admin/admin.js"></script>
+    <script src="app_main/components/header/header.js"></script>
+    <script src="app_main/components/container/container.js"></script>
+    <script src="app_main/components/footer/footer.js"></script>
+
+</body>
+</html>

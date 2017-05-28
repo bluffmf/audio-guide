@@ -1,11 +1,24 @@
-<div ng-controller="ContainerCtrl as vm" ng-cloak="" layout="row" layout-align="center" >
+<div layout-fill ng-controller="ContainerCtrl as vm" ng-cloak="" 
+                                    layout="column" layout-align="space-around center">
 
-
-    <div class="player" md-whiteframe="17" flex="55">
-        <section layout="column" layout-align="center center">
-            <h1>Player</h1>            
-        </section>
+    <div flex layout="row" layout-align="center center">
+        <div md-whiteframe="17" flex="55" layout-fill>
+            <div flex class="autumn"  layout="row" layout-align="center" layout-fill>
+                <img src="photo/png/autumn.png" alt="autumn">
+            </div>
+        </div>
     </div>
 
+
+    <div layout="row" layout-align="center center" class="dplayer">
+        <div md-whiteframe="17" flex="55" layout-fill>
+            <section layout="row" layout-align="space-around center" layout-fill>
+                <audio controls="controls" id="audiosource" src="/mus/ka.mp3">
+                    <source type="audio/mp3"  />
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+        </div>
+    </div>
 
 </div>

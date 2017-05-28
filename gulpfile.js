@@ -21,7 +21,7 @@ gulp.task('clean', function() {
     del.sync(['./dist']);
 });
 
-gulp.task('copy-build', ['copy-index-html', 'copy-css', 'copy-svg', 'copy-png', 'copy-js']);
+gulp.task('copy-build', ['copy-index-html', 'copy-css', 'copy-svg', 'copy-png', 'copy-mp3', 'copy-js']);
 
 gulp.task('copy-index-html', function() {
     return gulp.src('./src/**/*.html')
@@ -40,6 +40,11 @@ gulp.task('copy-svg', function() {
 
 gulp.task('copy-png', function() {
     return gulp.src('./src/**/*.png')
+        .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('copy-mp3', function() {
+    return gulp.src('./src/**/*.mp3')
         .pipe(gulp.dest('./dist'));
 });
 

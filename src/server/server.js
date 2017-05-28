@@ -28,6 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 app.use('/node_modules', express.static(path.join(basePath, '/node_modules')));
 app.use('/photo', express.static(path.join(basePath, placeMain, '/app/assets')));
+app.use('/mus', express.static(path.join(basePath, placeMain, '/app/music')));
 app.use('/app_main', express.static(path.join(basePath, placeMain, '/app')));
 app.use('/app_admin', express.static(path.join(basePath, placeAdmin, '/app')));
 

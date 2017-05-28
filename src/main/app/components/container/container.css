@@ -1,11 +1,15 @@
 
-.player {
+.dplayer {
     margin: 10px 0;
+    height: 70px;
+    width: 100%;
 }
 
 .autumn img {
-    max-width: 100%;
+    max-width: 99%;
+    /*max-height: 99%;*/
 }
+
 
 
 
